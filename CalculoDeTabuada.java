@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class CalculoDeTabuada {
 
 	public static void main(String[] args) {
-		int num = 0, resultado;
-		Scanner lerTeclado = new Scanner(System.in);
+	    int num = 0, resultado;
+	    Scanner lerTeclado = new Scanner(System.in);
 
 	    System.out.print("Digite um número entre 1 e 10: ");
 	    num = lerTeclado.nextInt();
@@ -24,7 +24,6 @@ public class CalculoDeTabuada {
 	    }
 
 	    lerTeclado.close();
-
 	}
 
 }
