@@ -9,7 +9,7 @@ public class PrimosEntre2Nros {
 		int resto = 0;
 		  
 		  for (int j = 2; j < numero; j++) {
-	        resto = numero % j;
+	                resto = numero % j;
 			if (resto == 0) {
 				return false;
 			}
@@ -18,10 +18,10 @@ public class PrimosEntre2Nros {
 	  }
 
 	public static void main(String[] args) {
-		int numeroInicial=0, numeroFinal=0;
-		int maiorNro = 0, menorNro=0;
+	    int numeroInicial=0, numeroFinal=0;
+	    int maiorNro = 0, menorNro=0;
 		
-		Scanner lerTeclado = new Scanner(System.in);
+	    Scanner lerTeclado = new Scanner(System.in);
 	    
 
 	    System.out.print("Digite o número inicial: ");
